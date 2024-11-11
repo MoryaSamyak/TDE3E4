@@ -1,224 +1,230 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-    background-image:url(https://seeklogo.com/images/T/triforce-logo-875784B69E-seeklogo.com.png);
-    background-size:50px;
-    background-repeat: repeat; 
-    background-blend-mode: multiply;
-    background-position:center;
-    background-color: rgba(14,81,53);
-    color:#fff;
-}
- 
-
-/*Header*/
-.header{
-  max-width: 1720px;
-  margin: 0 auto;
-
-}
-.header__container{
-  display:flex;
-  flex-direction:column;
-  gap: 30px;
-  padding: 20px 20px;
-  background-color: #000000;
-}
-
-.header__container nav{
-  order: 1;
-  padding: 20px 0px;
-  margin-bottom:50px ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-image:url(https://seeklogo.com/images/T/triforce-logo-875784B69E-seeklogo.com.png);
+      background-size:50px;
+      background-repeat: repeat; 
+      background-blend-mode: multiply;
+      background-position:center;
+      background-color: rgba(14,81,53);
+      color:#fff;
+  }
+   
+  
+  /*Header*/
+  .header{
+    max-width: 1720px;
+    margin: 0 auto;
+  
+  }
+  .header__container{
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+    padding: 20px 20px;
+    background-color: #000000;
+  }
+  
+  .header__container nav{
+    order: 1;
+    padding: 20px 0px;
+    margin-bottom:50px ;
+      
+  }
+  .header__container h1{
+    order: 2;
+    font-size: 32px;
+    text-align: center;
+  
     
-}
-.header__container h1{
-  order: 2;
-  font-size: 32px;
-  text-align: center;
-
+  }
+  .header__container p{
+    order: 3;
+    font-size: 20px;
+    text-align: center;
+  }
   
-}
-.header__container p{
-  order: 3;
-  font-size: 20px;
-  text-align: center;
-}
-
-.header__nav ul{
-  display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-  list-style-type: none;
-}
-
-.header__nav ul li a{
-  font-size: 24px;
-  text-decoration: none;
+  .header__nav ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style-type: none;
+  }
   
-}
-
-/*Primeira section Intro*/
-.section{
-  max-width: 1720px;
-  margin: 0 auto;
-}
-
-.intro__banner{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 20px 20px;
-  gap: 20px;
-  background-color: blue;
-}
-
-.intro__banner a{
-  font-size: 18px;
-  text-decoration: none;
-  background-color: #000000;
-  padding: 10px 30px;
-  max-width: 420px;
-  text-align: center;
-}
-.intro__banner h2{
-  font-size: 30px;
-  font-weight: bold;
-
-}
-.intro__banner p{
-  font-size: 22px;
-}
-
-/*Segunda Section About*/
-.section--about{
-  display: flex;
-  flex-direction: column;
-  padding: 20px 20px;
-  background-color: rebeccapurple;
-}
-.section--about h2{
-  font-size: 30px;
-  font-weight: bold;
-  padding:15px  0px;
-
-}
-.section--about p{
-  font-size: 22px;
-  padding: 0px 0px 15px 0px;
-}
-
-.about__grid{
-  display: flex;
-  flex-direction: column ;
-  justify-items: center;
-  gap: 10px;
-  border: 2px solid royalblue;
-  padding: 10px 40px;
-}
-
-.about__grid h3{
-  font-size: 20px;
-}
-.about__grid p{
-  font-size: 18px;
-  padding: 0px;
-}
-
-/*Terceira Section Gallery*/
-.section--gallery{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  gap: 20px;
-  background-color: rgb(123, 6, 144);
-}
-
-.section--gallery h2{
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.gallery__grid{
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  background-color: #000000;
-  padding: 20px;
-  
-
-}
-
-.gallery__item{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
-.gallery__item img{
-  width: 580px;
-}
-
-.gallery__item figcaption{
-  text-align: center;
-  font-size: 26px;
-  padding: 10px 0px;
-}
-
-.gallery__item button{
-  padding: 10px 30px;
-  width: 180px;
-  align-self: center;
-}
-
-
-/*Quarta Section Services*/
-.section--services .section__content{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  background-color: rebeccapurple;
-  gap: 20px;
-}
-
-.section--services .section__content h2{
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.services__list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 20px;
-  gap: 20px;
-  border: 1px solid white;
-}
-
-.service__item{
-  flex: 20%;
-  text-align: center;
-}
-
-.service__item h3{
-  font-size: 26px;
-}
-
-.service__item p{
-  font-size: 22px;
-}
-
-
-
-/*Quinta Section */
-/*Sexta Section */
-
+  .header__nav ul li a{
+    font-size: 24px;
+    text-decoration: none;
     
+  }
+  
+  /*Primeira section Intro*/
+  .section{
+    max-width: 1720px;
+    margin: 0 auto;
+  }
+  
+  .intro__banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    gap: 20px;
+    background-color: blue;
+  }
+  
+  .intro__banner a{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 30px;
+    max-width: 420px;
+    text-align: center;
+  }
+  .intro__banner h2{
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  .intro__banner p{
+    font-size: 22px;
+  }
+  
+  /*Segunda Section About*/
+  .section--about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    background-color: rebeccapurple;
+  }
+  .section--about h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding:15px  0px;
+  
+  }
+  .section--about p{
+    font-size: 22px;
+    padding: 0px 0px 15px 0px;
+  }
+  
+  .about__grid{
+    display: flex;
+    flex-direction: column ;
+    justify-items: center;
+    gap: 10px;
+    border: 2px solid royalblue;
+    padding: 10px 40px;
+  }
+  
+  .about__grid h3{
+    font-size: 20px;
+  }
+  .about__grid p{
+    font-size: 18px;
+    padding: 0px;
+  }
+  
+  /*Terceira Section Gallery*/
+  .section--gallery{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .section--gallery h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .gallery__grid{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/Triforce.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-color: rgb(0,0,0,0.5);
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 20px;
+    
+  
+  }
+  
+  .gallery__item{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .gallery__item img{
+    width: 480px;
+  }
+  
+  .gallery__item figcaption{
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 0px;
+  }
+  
+  .gallery__item button{
+    padding: 10px 30px;
+    width: 140px;
+    align-self: center;
+    font-size: 14px;
+  }
+  
+  
+  /*Quarta Section Services*/
+  .section--services .section__content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rebeccapurple;
+    gap: 20px;
+  }
+  
+  .section--services .section__content h2{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .services__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid white;
+  }
+  
+  .service__item{
+    flex: 20%;
+    text-align: center;
+  }
+  
+  .service__item h3{
+    font-size: 26px;
+  }
+  
+  .service__item p{
+    font-size: 22px;
+  }
+  
+  
+  
+  /*Quinta Section */
+  /*Sexta Section */
+  
+      
